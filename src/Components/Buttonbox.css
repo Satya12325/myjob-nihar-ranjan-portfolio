@@ -1,0 +1,31 @@
+.socialIcon{
+    width: 60px;
+    height: 60px;   
+    font-size: 18px;     
+    border-radius: 6px;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .7s;
+}
+.socialIcon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.skill{
+    height: 60px;
+    width: 60px;
+    background: rgb(235, 233, 233);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill > img {
+    height: 30px;
+    width: 30px;
+}
